@@ -9,7 +9,7 @@ export default function PaymentWindow() {
      *
      * 'iamport'일 경우, 관리자 테스트 모드 (환불 가능)
      */
-    IMP?.init('iamport')
+    IMP?.init(process.env.REACT_APP_IAMPORT_IMP_ID as string)
     IMP?.request_pay({
       pg: 'html5_inicis',
       pay_method: 'card',

@@ -11,8 +11,8 @@ export default function RedirectedPage() {
 
   const getToken = async () => {
     const body = {
-      imp_key: '아임포트 REST API KEY',
-      imp_secret: '아임포트 REST API SECRET KEY',
+      imp_key: process.env.REACT_APP_IAMPORT_REST_API_KEY,
+      imp_secret: process.env.REACT_APP_IAMPORT_REST_API_SECRET_KEY,
     }
     const token = await axios.post('https://api.iamport.kr/users/getToken', body, {
       headers: { 'Content-Type': 'application/json' },
