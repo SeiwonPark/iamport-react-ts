@@ -4,11 +4,11 @@
  */
 
 export interface PayResponseAdditionalParams {
-  apply_num?: string
-  vbank_num?: string
-  vbank_name?: string
-  vbank_holder?: string | null
-  vbank_date?: number
+  apply_num?: string // 카드사 승인번호(신용카드결제에 한하여 제공)
+  vbank_num?: string // 가상계좌 입금계좌번호
+  vbank_name?: string // 가상계좌명
+  vbank_holder?: string | null // 가상계좌 예금주
+  vbank_date?: number // 가상계좌 입금기한(UNIX timestamp)
 }
 
 export interface PayResponseParams extends PayResponseAdditionalParams {
