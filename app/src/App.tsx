@@ -1,10 +1,17 @@
 import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import PaymentWindow from './components/PaymentWindow'
+import RedirectedPage from './components/RedirectedPage'
 
-function App() {
+export default function App() {
   return (
-    <PaymentWindow />
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<PaymentWindow />} />
+          <Route path="/redirect" element={<RedirectedPage />} />
+        </Routes>
+      </Router>
+    </div>
   )
 }
-
-export default App

@@ -1,4 +1,7 @@
 # IAMPORT-REACT-TS
+아임포트([iamport.kr](https://www.iamport.kr/))의 JavaScript SDK를 React와 TypeScript를 활용한 예제입니다.
+
+<br/>
 
 # Version
 - JavaScript SDK

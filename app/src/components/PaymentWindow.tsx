@@ -21,7 +21,7 @@ export default function PaymentWindow() {
       buyer_email: 'psw7347@gmail.com',
       buyer_addr: '서울특별시 강남구 삼성동',
       buyer_postcode: '123-456',
-      m_redirect_url: '리디렉션 될 URL',
+      m_redirect_url: 'https://iamport-react-ts.vercel.app/redirect',
     }, (rsp) => {
       console.log(rsp)
     })
