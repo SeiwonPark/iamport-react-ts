@@ -1,5 +1,5 @@
 # IAMPORT-REACT-TS
-아임포트([iamport.kr](https://www.iamport.kr/))의 JavaScript SDK를 React와 TypeScript를 활용한 예제입니다.
+아임포트([iamport.kr](https://www.iamport.kr/))의 JavaScript SDK를 이용해 React와 TypeScript로 구현한 예제입니다.
 
 <br/>
 
@@ -21,7 +21,7 @@ $ git clone https://github.com/SeiwonPark/iamport-react-ts.git
 $ cd iamport-react-ts
 $ nvm install
 $ cd app
-$ npm i && npm start
+$ npm ci && npm start
 ```
 
 <br/>

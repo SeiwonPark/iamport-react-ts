@@ -1,5 +1,5 @@
-import { PayRequestParams } from './PayRequestParams'
-import { PayResponseParams } from './PayResponseParams'
+import { PayRequestParams } from "./PayRequestParams"
+import { PayResponseParams } from "./PayResponseParams"
 
 type PayRequestCallback = (response: PayResponseParams) => void
 
