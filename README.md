@@ -11,7 +11,6 @@
   <!-- iamport.payment.js -->
   <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.8.js"></script>
   ```
-- node ≥ v16
 
 <br/>   
 
@@ -19,8 +18,6 @@
 ```bash
 $ git clone https://github.com/SeiwonPark/iamport-react-ts.git
 $ cd iamport-react-ts
-$ nvm install
-$ cd app
 $ npm ci && npm start
 ```
 
